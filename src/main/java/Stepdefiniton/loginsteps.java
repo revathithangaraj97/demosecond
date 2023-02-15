@@ -32,6 +32,8 @@ public class loginsteps {
 	public void cuteyst()
 	{
 		System.out.println("so cute");
+		System.out.println("so cuteiee");
 	}
+	
 
 }
