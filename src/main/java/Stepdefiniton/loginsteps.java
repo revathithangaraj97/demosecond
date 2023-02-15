@@ -29,6 +29,9 @@ public class loginsteps {
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println("login success");
 	}
-
+	public void cuteyst()
+	{
+		System.out.println("so cute");
+	}
 
 }
