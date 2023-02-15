@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "check login is successfully with valid credential",
+        "description": "",
+        "id": "to-test-login-functionality;check-login-is-successfully-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "User is on login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User enter username and password",
+            "match": {
+              "location": "Loginsteps.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Clicks on the login button",
+            "match": {
+              "location": "Loginsteps.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User navigated to home page",
+            "match": {
+              "location": "Loginsteps.user_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test login functionality",
+    "description": "",
+    "id": "to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "C:/Users/Revathi T/Desktop/software testing/Automation/Eclipseworkspace/Cucumberexample/src/test/resources/features/login.feature"
+  }
+]
